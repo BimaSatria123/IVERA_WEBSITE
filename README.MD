@@ -7,7 +7,7 @@ Website Peminjaman Ruangan.
 - Backend: Backend development.
 - Frontend: Frontend development.
 
-## Technologies
+## Technologies⚙️
 
 - PHP
 - MySQL
@@ -15,7 +15,7 @@ Website Peminjaman Ruangan.
 - TAILWIND
 - JavaScript
 
-## Developers
+## Developers👨‍💻
 
 - Bima
 - Arka
