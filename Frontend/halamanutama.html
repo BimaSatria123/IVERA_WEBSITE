@@ -8,7 +8,40 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="m-0 p-0">
-  <img src="../assets/Screenshot 2026-11-20 213300.png" alt="gambar bg" class="w-full h-screen">
+<body class="relative min-h-screen w-full flex flex-col justify-between p-5 md:p-8 overflow-x-hidden">
+
+    <img src="../Assets/background web.jpeg"
+         alt="Background"
+         class="absolute inset-0 w-full h-full object-cover">
+
+
+    <nav class="w-full max-w-6xl mx-auto flex items-center justify-between px-6 py-3 rounded-full bg-white/10 backdrop-blur-md shadow-md border border-white/50">
+        <div class="font-medium tracking-widest text-white px-2">IVERA</div>
+        
+        <div class="flex items-center">
+            <a href="../Frontend/login.html" class="inline-flex items-center gap-2.5 px-6 py-2 rounded-full bg-[#06B6EC]/[26%] hover:bg-[#06B6EC]/[40%] backdrop-blur-md text-white text-xs font-medium shadow-sm transition border border-white/50">
+                <img src="../Assets/logout.png" alt="Login" class="w-4 h-4"> 
+                <span>LOGIN</span>
+            </a>
+        </div>
+    </nav>
+
+
+    <main class="flex-1 flex flex-col justify-center items-center text-center my-auto">
+        
+
+        <h1 class="text-4xl md:text-6xl font-normal text-white leading-snug tracking-wide mb-14 drop-shadow-sm">
+            Website Peminjaman <br>
+            Ruangan
+        </h1>
+
+        <a href="../Frontend/login.html" class="inline-block px-10 py-3 rounded-full bg-white/10 hover:bg-white/25 backdrop-blur-md border border-white/50 text-white font-normal shadow-sm transition duration-300">
+            CHECK RUANGAN
+        </a>
+
+    </main>
+
+    <div class="h-8"></div>
+
 </body>
 </html>
