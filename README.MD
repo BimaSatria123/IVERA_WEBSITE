@@ -6,6 +6,7 @@ Website Peminjaman Ruangan.
 
 - Backend: Backend development.
 - Frontend: Frontend development.
+- UI/UX: Full Stack
 
 ## Technologies⚙️
 
